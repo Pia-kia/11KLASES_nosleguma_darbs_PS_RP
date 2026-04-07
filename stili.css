@@ -1,1 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 
+#particles-js {
+    /* position: absolute; */
+    height: 99%;
+    width: 100%;
+    background: rgb(184, 94, 94);
+    z-index: -1;
+}
+
+#header {
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+}
