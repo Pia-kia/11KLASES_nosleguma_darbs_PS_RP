@@ -6,6 +6,6 @@
 Particle.jS
 
 Klavieru spēle
-Kaulinu spēle
-Minēšanas spēle
+PLACEHOLDER - ROBERTAM JĀIZDOMĀ
+Minēšanas spēle-ROBERTAM JĀTAISA
 Atimiņu spēle
