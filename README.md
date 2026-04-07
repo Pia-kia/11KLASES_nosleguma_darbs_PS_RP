@@ -5,7 +5,7 @@
 
 Particle.jS
 
-Bungu spēle
+Klavieru spēle
 Kaulinu spēle
 Minēšanas spēle
 Atimiņu spēle
