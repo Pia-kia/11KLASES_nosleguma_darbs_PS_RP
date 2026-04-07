@@ -17,3 +17,15 @@ body {
     background-color: aliceblue;
     width: 100%;
 }
+
+h3 {
+    padding-left: 10px;
+}
+
+.gameWindow {
+    position: absolute;
+    background-color: black;
+    opacity: 10%;
+    width: 100px;
+    height: 100px;
+}
