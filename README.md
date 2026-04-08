@@ -6,6 +6,6 @@
 Particle.jS
 
 Klavieru spēle
-PLACEHOLDER - ROBERTAM JĀIZDOMĀ
-Minēšanas spēle-ROBERTAM JĀTAISA
+PLACEHOLDER 
+Minēšanas spēle
 Atimiņu spēle
