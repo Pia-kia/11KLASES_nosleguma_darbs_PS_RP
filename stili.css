@@ -4,12 +4,13 @@ body {
     height: 100vh;
 }
 
+
 #particles-js {
     /* position: absolute; */
     height: 99%;
     width: 100%;
-    background: rgb(184, 94, 94);
     z-index: -1;
+    background: rgb(184, 94, 94);
 }
 
 #header {
@@ -25,7 +26,26 @@ h3 {
 .gameWindow {
     position: absolute;
     background-color: black;
-    opacity: 10%;
-    width: 100px;
-    height: 100px;
+    /* opacity: 10%; */
+    width: 250px;
+    height: 375px;
+    border-style: solid;
+}
+
+.description {
+    position: absolute;
+    width: inherit;
+    height: 120px;
+    background-color: beige ;
+    /* border-style: solid; */
+}
+
+#piano-window{
+    left: 45vh;
+    top: 10vh;
+}
+
+#guessing-window {
+    left: 120vh;
+    top: 10vh;
 }
