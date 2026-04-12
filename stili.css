@@ -4,12 +4,15 @@ body {
     height: 100vh;
 }
 
+img {
+    width: inherit;
+}
 
 #particles-js {
     /* position: absolute; */
     height: 99%;
     width: 100%;
-    z-index: -1;
+    z-index: -2;
     background: rgb(184, 94, 94);
 }
 
@@ -28,24 +31,111 @@ h3 {
     background-color: black;
     /* opacity: 10%; */
     width: 250px;
-    height: 375px;
+    height: 415px;
     border-style: solid;
 }
 
+#skola {
+    top: 15em;
+    left: 90em;
+    position: absolute;
+    background-color: black;
+    /* opacity: 10%; */
+    width: 250px;
+    height: 330px;
+    border-style: solid;
+}
 .description {
     position: absolute;
     width: inherit;
-    height: 120px;
+    height: 160px;
     background-color: beige ;
     /* border-style: solid; */
 }
 
 #piano-window{
-    left: 45vh;
-    top: 10vh;
+    left: 28em;
+    top: 6em;
+}
+
+#memory-window {
+    left: 74.9em;
+    top: 6em;
+}
+
+#rps-window {
+    left: 74.9em;
+    top: 34.5em;
 }
 
 #guessing-window {
-    left: 120vh;
-    top: 10vh;
+    left: 28em;
+    top: 34.5em
+}
+
+#intro {
+    
+    top: 1.635em;
+    position: absolute;
+    font-size:36px;
+}
+#cilvekuApraksts {
+    position: absolute;
+    top:14em;
+}
+
+#trans-bg {
+    background: black;
+    width: auto;
+    height:4em;
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg2 {
+    background: black;
+    width: 59em;
+    height:4em;
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg3 {
+    background: black;
+    width: 19em;
+    height:6em;
+
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg4 {
+    background: black;
+    width: 19em;
+    height:6em;
+
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#peteris {
+    font-size: 2em;
+    word-wrap: break-word;
+    position: absolute;
+    top:14em;
+    left: 1em;   
+    width: 20em;
+}
+
+#roberts {
+    font-size: 2em;
+    word-wrap: break-word;
+    position: absolute;
+    top:14em;
+    left: 23em;   
+    width: 20em;
 }

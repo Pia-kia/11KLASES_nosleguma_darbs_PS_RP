@@ -9,6 +9,3 @@ Klavieru spēle
 PLACEHOLDER 
 Minēšanas spēle
 Atimiņu spēle
-
-
-DARĪT TĀ, LAI CANVAS JEB BACKGRAUND PAREIZI MAINĪTOS LIELUMU KAD ZOOMO!!!
