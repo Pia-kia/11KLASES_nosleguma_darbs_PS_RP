@@ -5,7 +5,7 @@
 
 Particle.jS
 
-Klavieru spēle
-PLACEHOLDER 
-Minēšanas spēle
+Klavieru spēle - Done! Itkā.
+PLACEHOLDER -robertam
+Kāmstrik spēle - robertam
 Atimiņu spēle
