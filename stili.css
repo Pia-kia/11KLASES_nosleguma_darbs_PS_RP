@@ -8,6 +8,14 @@ img {
     width: inherit;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding-bottom: 5px;
+}
 #particles-js {
     /* position: absolute; */
     height: 99%;
@@ -31,7 +39,7 @@ h3 {
     background-color: black;
     /* opacity: 10%; */
     width: 250px;
-    height: 415px;
+    height: 375px;
     border-style: solid;
 }
 
@@ -48,9 +56,16 @@ h3 {
 .description {
     position: absolute;
     width: inherit;
-    height: 160px;
+    height: 120px;
     background-color: beige ;
-    /* border-style: solid; */
+
+}
+
+.descTwo {
+    position: absolute;
+    width: inherit;
+    height: 16.75vh;
+    background-color: beige ;
 }
 
 #piano-window{
@@ -139,3 +154,37 @@ h3 {
     left: 23em;   
     width: 20em;
 }
+
+#klavieres {
+    border: solid;
+    padding: 1vh;
+    background-color: white;
+    position: absolute;
+    left: 50vh;
+    top: 35vh;
+}
+.set {
+    position: absolute;
+    top: 37vh;
+    left: 0vh;
+    /* padding-left: 10vh; */
+}
+
+button {
+    margin-left: 2.5vh;
+    /* height: 10vh; */
+}
+
+.drum {
+    outline: none;  
+    border: 0.5vh solid #404B69;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #DA0463;
+    /* text-shadow: 3px 0 #DBEDF3; */
+    border-radius: 5vh;
+    width: 4.25vh;
+    height: 3.5vh;
+    background-color: white;
+  }
+  

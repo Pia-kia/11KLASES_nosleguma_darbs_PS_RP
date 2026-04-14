@@ -5,10 +5,7 @@
 
 Particle.jS
 
-Klavieru spēle - Itkā ir!
-PLACEHOLDER -robertam jāizdomā
-Akmens šķēres papīrīts spēle - robertam jātaisa
+Klavieru spēle
+PLACEHOLDER 
+Minēšanas spēle
 Atimiņu spēle
-
-
-PIEVIENOT KLAVIERĒM ANIMĀCIJAS!
