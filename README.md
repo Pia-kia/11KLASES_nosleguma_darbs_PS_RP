@@ -9,3 +9,6 @@ Klavieru spēle
 PLACEHOLDER 
 Minēšanas spēle
 Atimiņu spēle
+
+
+PIEVIENOT KLAVIERĒM ANIMĀCIJAS!
