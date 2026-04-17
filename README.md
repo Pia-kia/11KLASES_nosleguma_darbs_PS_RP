@@ -7,5 +7,5 @@ Particle.jS
 
 Klavieru spēle - Done! Itkā.
 PLACEHOLDER -robertam
-Kāmstrik spēle - robertam
+Kāmstrik spēle - 
 Atimiņu spēle
