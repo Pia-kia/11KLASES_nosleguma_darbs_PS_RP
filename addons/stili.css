@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+img {
+    width: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+#particles-js {
+    /* position: absolute; */
+    height: 99%;
+    width: 100%;
+    z-index: -2;
+    background: rgb(184, 94, 94);
+}
+
+.header {
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 1;
+}
+
+h3, h5 {
+    padding-left: 10px;
+}
+
+.gameWindow {
+    position: absolute;
+    background-color: black;
+    /* opacity: 10%; */
+    width: 250px;
+    height: 375px;
+    border-style: solid;
+}
+
+#skola {
+    top: 15em;
+    left: 90em;
+    position: absolute;
+    background-color: black;
+    /* opacity: 10%; */
+    width: 250px;
+    height: 330px;
+    border-style: solid;
+}
+.description {
+    position: absolute;
+    width: inherit;
+    height: 120px;
+    background-color: beige ;
+
+}
+
+.descTwo {
+    position: absolute;
+    width: inherit;
+    height: 16.75vh;
+    background-color: beige ;
+}
+
+#piano-window{
+    left: 28em;
+    top: 6em;
+}
+
+#memory-window {
+    left: 74.9em;
+    top: 6em;
+}
+
+#rps-window {
+    left: 74.9em;
+    top: 34.5em;
+}
+
+#guessing-window {
+    left: 28em;
+    top: 34.5em
+}
+
+#intro {
+    
+    top: 1.635em;
+    position: absolute;
+    font-size:36px;
+}
+#cilvekuApraksts {
+    position: absolute;
+    top:14em;
+}
+
+#trans-bg {
+    background: black;
+    width: auto;
+    height:4em;
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg2 {
+    background: black;
+    width: 59em;
+    height:4em;
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg3 {
+    background: black;
+    width: 19em;
+    height:6em;
+
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#trans-bg4 {
+    background: black;
+    width: 19em;
+    height:6em;
+
+    position: inherit;
+    top: 0em;
+    opacity: 10%;
+}
+
+#peteris {
+    font-size: 2em;
+    word-wrap: break-word;
+    position: absolute;
+    top:14em;
+    left: 1em;   
+    width: 20em;
+}
+
+#roberts {
+    font-size: 2em;
+    word-wrap: break-word;
+    position: absolute;
+    top:14em;
+    left: 23em;   
+    width: 20em;
+}
+
+#klavieres {
+    border: solid;
+    padding: 1vh;
+    background-color: white;
+    position: absolute;
+    left: 50vh;
+    top: 35vh;
+}
+.set {
+    position: absolute;
+    top: 37vh;
+    left: 0vh;
+    /* padding-left: 10vh; */
+}
+
+button {
+    margin-left: 2.5vh;
+    /* height: 10vh; */
+}
+
+.drum {
+    outline: none;  
+    border: 0.5vh solid #404B69;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #DA0463;
+    /* text-shadow: 3px 0 #DBEDF3; */
+    border-radius: 5vh;
+    width: 4.25vh;
+    height: 3.5vh;
+    background-color: white;
+  }
+  
+
+#kartis {
+    position: absolute;
+    padding-left: 83vh;
+    padding-top: 25vh;
+}
+
+.card {
+    width: 10vh;
+}
