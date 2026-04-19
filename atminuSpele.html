@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atmiņu Spēle</title>
+    <title>Spēle atmiņai</title>
     <link rel="icon" type="image/x-icon" href="addons/favicon.ico">
-    <link rel="stylesheet" href="addons/stili.css">
-    
+    <link rel="stylesheet" href="addons/karsuStili.css">
+
 </head>
 <body>
     <div id="particles-js" id="atmiņu-spēle">
@@ -14,38 +14,15 @@
             <h3><a href="index.html">Mājaslapa</a> | <a href="parMums.html">Par Mums</a> | <a href="https://github.com/Pia-kia/11KLASES_nosleguma_darbs_PS_RP">Github</a></h3>
         </div> 
         
-        <div id="kartis">
-            <table>
-                <tr>
-                    <td><img src="kartis/back.png" class="card" id="a"></td>
-                    <td><img src="kartis/back.png" class="card" id="b"></td>
-                    <td><img src="kartis/back.png" class="card" id="c"></td>
-                    <td><img src="kartis/back.png" class="card" id="d"></td>
-                </tr> 
-                <tr>
-                    <td><img src="kartis/back.png" class="card" id="e"></td>
-                    <td><img src="kartis/back.png" class="card" id="f"></td>
-                    <td><img src="kartis/back.png" class="card" id="g"></td>
-                    <td><img src="kartis/back.png" class="card" id="h"></td>
-                </tr>
-                <tr>
-                    <td><img src="kartis/back.png" class="card" id="i"></td>
-                    <td><img src="kartis/back.png" class="card" id="j"></td>
-                    <td><img src="kartis/back.png" class="card" id="k"></td>
-                    <td><img src="kartis/back.png" class="card" id="l"></td>
-                </tr>
-
-                <tr>
-                    <td><img src="kartis/back.png" class="card" id="m"></td>
-                    <td><img src="kartis/back.png" class="card" id="n"></td>
-                    <td><img src="kartis/back.png" class="card" id="o"></td>
-                    <td><img src="kartis/back.png" class="card" id="p"></td>
-                </tr>
-            </table>
+        <h1>Klikšķini uz kārtīm!</h1>
+        <div class="grid-container">
         </div>
-
+        <p>Punkti: <span class="score"></span></p>
+        <div class="actions">
+            <button onclick="restart()">Restartēt</button>
+        </div>
     </div>
-    <script src="addons/scripts.js"></script>
+    <script src="addons/karsuScripts.js"></script>
     <script type="text/javascript" src="addons/particles.js"></script>
     <script type="text/javascript" src="addons/app.js"></script>
 </body>

@@ -1,0 +1,39 @@
+[
+    {
+        "image": "./kartis/Abols.png",
+        "name": "abols"
+    },
+    {
+        "image": "./kartis/atoms.png",
+        "name": "atoms"
+    },
+    {
+        "image": "./kartis/Dimants.png",
+        "name": "dimants"
+    },
+    {
+        "image": "./kartis/Koks.png",
+        "name": "koks"
+    },
+    {
+        "image": "./kartis/Pasaule.png",
+        "name": "world"
+    },
+    {
+        "image": "./kartis/peace.png",
+        "name": "peace"
+    },
+    {
+        "image": "./kartis/Puke.png",
+        "name": "puke"
+    },
+    {
+        "image": "./kartis/Zvaigzne.png",
+        "name": "zvaigzne"
+    },
+    {
+        "image": "./kartis/raksts.png",
+        "name": "raksts "
+    }
+
+]
