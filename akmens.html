@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Akmens Šķēres Papīrītis</title>
+
+<link rel="icon" type="image/x-icon" href="addons/favicon.ico">
+<link rel="stylesheet" href="addons/karsuStili.css">
+
+<style>
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* stils */
+.game-box {
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.choices button {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.2);
+    transition: 0.2s;
+}
+.choices button:hover {
+    transform: scale(1.15);
+}
+
+.choices img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.score {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.win { color: green; }
+.lose { color: red; }
+.draw { color: gray; }
+
+.actions button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- fons -->
+<div id="particles-js">
+
+    <!-- header -->
+    <div class="header">
+        <h3>
+            <a href="index.html">Mājaslapa</a> | 
+            <a href="parMums.html">Par Mums</a> | 
+            <a href="akmens.html">Akmens spēle</a>
+        </h3>
+    </div>
+
+    <h1>Akmens 🧱 Šķēres ✂️ Papīrītis 📄</h1>
+
+    <div class="actions">
+    <button onclick="restart()">Restartēt</button>
+</div>
+    <!-- spēles pogas -->
+    <div class="game-box">
+
+       <div class="choices">
+    <button onclick="play('akmens')">
+        <img src="addons/akmens.png" alt="Akmens">
+    </button>
+
+    <button onclick="play('šķēres')">
+        <img src="addons/skeres.png" alt="Šķēres">
+    </button>
+
+    <button onclick="play('papīrs')">
+        <img src="addons/papirs.png" alt="Papīrs">
+    </button>
+</div>
+
+        <div id="result" class="result">Izvēlies savu gājienu!</div>
+        <div id="score" class="score">Tu: 0 | Dators: 0</div>
+
+        <div class="actions">
+            <button onclick="restart()">Restartēt</button>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- spēles javaScript  -->
+<script>
+let playerScore = 0;
+let computerScore = 0;
+
+function play(playerChoice) {
+    const choices = ['akmens', 'šķēres', 'papīrs'];
+    const computerChoice = choices[Math.floor(Math.random() * 3)];
+
+    let resultText = `Tu: ${playerChoice} | Dators: ${computerChoice} → `;
+    let resultClass = "";
+
+    if (playerChoice === computerChoice) {
+        resultText += "Neizšķirts!";
+        resultClass = "draw";
+    } 
+    else if (
+        (playerChoice === 'akmens' && computerChoice === 'šķēres') ||
+        (playerChoice === 'šķēres' && computerChoice === 'papīrs') ||
+        (playerChoice === 'papīrs' && computerChoice === 'akmens')
+    ) {
+        resultText += "Tu uzvarēji!";
+        resultClass = "win";
+        playerScore++;
+    } 
+    else { 
+        resultText += "Dators uzvarēja!";
+        resultClass = "lose";
+        computerScore++;
+    }
+
+    const resultDiv = document.getElementById("result");
+    resultDiv.innerText = resultText;
+    resultDiv.className = "result " + resultClass;
+
+    document.getElementById("score").innerText =
+        `Tu: ${playerScore} | Dators: ${computerScore}`;
+}
+
+function restart() {
+    playerScore = 0;
+    computerScore = 0;
+
+    document.getElementById("score").innerText = "Tu: 0 | Dators: 0";
+    document.getElementById("result").innerText = "Spēle restartēta!";
+    document.getElementById("result").className = "result";
+}
+</script>
+
+<!-- ipasais fons -->
+<script src="addons/particles.js"></script>
+<script src="addons/app.js"></script>
+
+</body>
+</html>
