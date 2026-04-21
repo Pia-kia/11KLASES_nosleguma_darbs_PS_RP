@@ -83,17 +83,4 @@ function skana(key) {
 }
 
 
-// VARBUT PIEVIENMOT ANIMACIJAS???
-// IDK
-// -peteris
-
-// function animacija(currentKey) {
-//     let activeBTN= document.querySelector("." + currentKey)
-//     activeBTN.classList.add("pressed")
-//     setTimeout(function() {
-//         activeBTN.classList.remove("pressed")
-//     },
-//     50)
-// }
-
 

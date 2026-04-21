@@ -71,7 +71,7 @@ p {
 
 .front-image {
   width: 100vh;
-  height: 21.5vh;
+  height: 22.5vh;
 }
 
 .card.flipped {
@@ -92,6 +92,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 22vh; */
 }
 
 .card .back {

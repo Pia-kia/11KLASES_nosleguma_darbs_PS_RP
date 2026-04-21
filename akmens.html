@@ -11,16 +11,16 @@
 
 <style>
 body {
-    text-align: center;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 /* stils */
 .game-box {
+    text-align: center;
     margin-top: 40px;
     position: relative;
-    z-index: 2;
+    /* z-index: -9; */
 }
 
 .choices button {
@@ -31,17 +31,13 @@ body {
     cursor: pointer;
     background: rgba(255,255,255,0.2);
     transition: 0.2s;
+
+    font-size: 10vh;
 }
 .choices button:hover {
     transform: scale(1.15);
 }
 
-.choices img {
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-    object-fit: cover;
-}
 
 .result {
     margin-top: 20px;
@@ -67,10 +63,6 @@ body {
 }
 
 
-.header {
-    position: relative;
-    z-index: 1;
-}
 </style>
 
 </head>
@@ -83,9 +75,9 @@ body {
     <!-- header -->
     <div class="header">
         <h3>
-            <a href="index.html">Mājaslapa</a> | 
+            <a href="index.html">Spēles</a> | 
             <a href="parMums.html">Par Mums</a> | 
-            <a href="akmens.html">Akmens spēle</a>
+            <a href="https://github.com/Pia-kia/11KLASES_nosleguma_darbs_PS_RP">Github</a>
         </h3>
     </div>
 
@@ -99,24 +91,23 @@ body {
 
        <div class="choices">
     <button onclick="play('akmens')">
-        <img src="addons/akmens.png" alt="Akmens">
+        <!-- <img src="addons/akmens.png" alt="Akmens"> -->
+        🧱
     </button>
 
     <button onclick="play('šķēres')">
-        <img src="addons/skeres.png" alt="Šķēres">
+        <!-- <img src="addons/skeres.png" alt="Šķēres"> -->
+        ✂️
     </button>
 
     <button onclick="play('papīrs')">
-        <img src="addons/papirs.png" alt="Papīrs">
+        <!-- <img src="addons/papirs.png" alt="Papīrs"> -->
+        📄
     </button>
 </div>
 
         <div id="result" class="result">Izvēlies savu gājienu!</div>
         <div id="score" class="score">Tu: 0 | Dators: 0</div>
-
-        <div class="actions">
-            <button onclick="restart()">Restartēt</button>
-        </div>
 
     </div>
 
